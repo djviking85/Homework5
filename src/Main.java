@@ -35,12 +35,28 @@ public class Main {
         }}
     public static void task3 () {
         System.out.println("Задача 3");
-         // Пишем код для задачи 2
+         var year = 2024 ;
+         if ((year % 400 == 0) || (year %4 == 0 && year % 100 != 0))  {
+            System.out.println( "Год високосный");
+        } else {
+             System.out.println( "Год обычный");
+         }
     }
     public static void task4 () {
         System.out.println("Задача 4");
-         // Пишем код для задачи 2
+        var deliveryDistance = 11;
+        if (deliveryDistance < 19) {
+            System.out.println(" чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется дней 1 день");
+        } else if (deliveryDistance <= 59) {
+            System.out.println( " чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется дней 2 дня");
+        } else if (deliveryDistance <= 100) {
+            System.out.println( " чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется дней 3 дня");
+        } else  {
+            System.out.println( " У нас нет доставки на " + deliveryDistance + " км");
+
+        }
     }
+
     public static void task5 () {
         System.out.println("Задача 5");
          // Пишем код для задачи 2
