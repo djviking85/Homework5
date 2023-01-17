@@ -28,6 +28,7 @@ public class Main {
         } else if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println(" Установите облегченную версию приложения для iOS по ссылке");
         }
+
         if (clientOS == 1 && clientDeviceYear >= 2015) {
             System.out.println( "Установите версию приложения для Android по ссылке");
         } else if (clientOS == 1 && clientDeviceYear < 2015) {
@@ -35,7 +36,7 @@ public class Main {
         }}
     public static void task3 () {
         System.out.println("Задача 3");
-         var year = 2024 ;
+         var year = 400 ;
          if ((year % 400 == 0) || (year %4 == 0 && year % 100 != 0))  {
             System.out.println( "Год високосный");
         } else {
@@ -44,17 +45,21 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
-        var deliveryDistance = 11;
-        if (deliveryDistance < 19) {
-            System.out.println(" чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется дней 1 день");
-        } else if (deliveryDistance <= 59) {
-            System.out.println( " чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется дней 2 дня");
-        } else if (deliveryDistance <= 100) {
-            System.out.println( " чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется дней 3 дня");
-        } else  {
-            System.out.println( " У нас нет доставки на " + deliveryDistance + " км");
+        var deliveryDistance = 104;
+        var deliveryDays = 1;
 
+        if (deliveryDistance > 20) {
+            deliveryDays++;
         }
+        if (deliveryDistance > 60) {
+            deliveryDays++;
+        }
+        if (deliveryDistance > 100) {
+            System.out.println( "Доставки нет");
+        }else
+            System.out.println(" чтоб доставить клиенту карту, на " + deliveryDistance + " км, потребуется " + deliveryDays + " дней");
+
+
     }
 
     public static void task5 () {
