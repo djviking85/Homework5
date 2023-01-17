@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad6deb7-25ad-4841-85c3-c167b21950cb" name="Changes" comment="Homework5&#10;task 2">
+    <list default="true" id="4ad6deb7-25ad-4841-85c3-c167b21950cb" name="Changes" comment="Homework5&#10;task 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part3" />
+        <entry key="$PROJECT_DIR$" value="part4" />
       </map>
     </option>
   </component>
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673969705000</updated>
-      <workItem from="1673969706142" duration="5538000" />
+      <workItem from="1673969706142" duration="6582000" />
     </task>
     <task id="LOCAL-00001" summary="Homework5">
       <created>1673969767050</created>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673973022015</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework5&#10;task 4">
+      <created>1673976687458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673976687458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework5" />
     <MESSAGE value="Homework5&#10;task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework5&#10;task 2" />
+    <MESSAGE value="Homework5&#10;task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework5&#10;task 4" />
   </component>
 </project>

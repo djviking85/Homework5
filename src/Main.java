@@ -59,6 +59,46 @@ public class Main {
 
     public static void task5 () {
         System.out.println("Задача 5");
-         // Пишем код для задачи 2
+         var monthNumber = 6;
+         switch (monthNumber) {
+             case 1:
+                 System.out.println( monthNumber + " месяц - это: Январь, Зима");
+                 break;
+             case 2:
+                 System.out.println( monthNumber + " месяц - это: Февраль, Зима" );
+                 break;
+             case 3:
+                 System.out.println( monthNumber + " месяц - это: Март, Весна");
+                 break;
+             case 4:
+                 System.out.println( monthNumber + " месяц - это: Апрель, Весна" );
+                 break;
+             case 5:
+                 System.out.println( monthNumber + " месяц - это: Май, Весна");
+                 break;
+             case 6:
+                 System.out.println( monthNumber + " месяц - это: Июнь, Лето" );
+                 break;
+             case 7:
+                 System.out.println( monthNumber + " месяц - это: Июль, Лето");
+                 break;
+             case 8:
+                 System.out.println( monthNumber + " месяц - это: Август, Лето" );
+                 break;
+             case 9:
+                 System.out.println( monthNumber + " месяц - это: Сентябрь, Осень");
+                 break;
+             case 10:
+                 System.out.println( monthNumber + " месяц - это: Октябрь, Осень" );
+                 break;
+             case 11:
+                 System.out.println( monthNumber + " месяц - это: Ноябрь, Осень");
+                 break;
+             case 12:
+                 System.out.println( monthNumber + " месяц - это: Декабрь, опять Зима" );
+                 break;
+             default:
+                 System.out.println("Месяцы в календаре с 1 по 12, не иначе. Выбери число с 1 по 12");
+         }
     }
 }
